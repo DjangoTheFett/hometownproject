@@ -8,13 +8,17 @@ DARK BLUE: #1D3557
 
 */
 
+
+
 body {
     margin: 0;
     text-align: center;
+    font-family: 'oswald', sans-serif;
 }
 
 img {
     width: 100px;
+    height: 100px;
 }
 
 #hero {
@@ -48,3 +52,59 @@ h2 {
     padding: 5px 10px;
 }
 
+
+.activities-section {
+    display: flex;
+    flex-direction: column;
+    background:  #F1FAEE;
+    font-size: 24px;
+}
+
+.activities {
+margin-top: 25px;
+display: flex;
+justify-content: space-around;
+font-size: 16px;
+}
+
+.activities-info {
+    width: 225px;
+}
+
+
+
+.activities img {
+    border-radius: 50%;
+    background-color: white;
+}
+
+.activities img:hover {
+    opacity: .5;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.guide-section {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.info-card {
+    background-color:#457b9d ;
+    display: flex;
+    align-items: center;
+   
+   
+
+}
+
+.info-card img {
+    padding: 25px 25px ;
+}
+
+.guide-info {
+    width: 190px;
+}

@@ -75,11 +75,13 @@ font-size: 16px;
 
 .activities img {
     border-radius: 50%;
-    background-color: white;
+    
+    
 }
 
 .activities img:hover {
     opacity: .5;
+    
 }
 
 .bold {
@@ -89,22 +91,39 @@ font-size: 16px;
 .guide-section {
     display: flex;
     justify-content: center;
+margin:50px 0px;
     
 }
 
 .info-card {
-    background-color:#457b9d ;
+    background-color:#A8DADC ;
     display: flex;
-    align-items: center;
+   justify-content: space-evenly;
+   align-items: center;
+  padding: 25px 0px;
+   width: 450px;
+   border-radius: 8px;
+   box-shadow: 0px 6px 0 0 #1D3557 ;
+  
+    
    
    
 
 }
 
 .info-card img {
-    padding: 25px 25px ;
+
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+ 
+    
 }
 
 .guide-info {
     width: 190px;
+}
+
+.guide-info h3 {
+    font-size: 24px;
 }
